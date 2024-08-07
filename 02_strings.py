@@ -5,4 +5,11 @@ print(sample_str)
 print(sample_str[3])
 
 # Slicing
+#2nd_index is treated as 2nd_index-1
 print(sample_str[1:3])
+
+sample=sample_str[:]
+print(sample)
+
+sample=sample_str[2:4]
+print(sample)
