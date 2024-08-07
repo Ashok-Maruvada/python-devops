@@ -16,3 +16,6 @@ print(sample)
 
 sample=sample_str[::2]
 print(sample)
+
+sample=sample_str[1::2]
+print(sample)
