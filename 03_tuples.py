@@ -26,5 +26,5 @@ res_tuple1=sample_slice*2
 print(res_tuple1)
 
 # Methods
-res_index=sample_tuple.index(k8)
+res_index=sample_tuple.index('k8')
 print(res_index)
