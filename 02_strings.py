@@ -45,3 +45,7 @@ print(join_str, type(join_str))
 
 count_i=sample.count('i')
 print(count_i)
+
+sample='   this is my life    '
+sample_str=sample.strip()
+print(sample_str)
