@@ -43,5 +43,5 @@ print(split_str, type(split_str))
 join_str=' '.join(split_str)
 print(join_str, type(join_str))
 
-count_i=sample.count(i)
+count_i=sample.count('i')
 print(count_i)
