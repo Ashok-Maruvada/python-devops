@@ -2,6 +2,8 @@ sample_str='this is my choice'
 print(sample_str)
 
 # How to access individual characters from a string
+# space between the words is also considered in strings
+# Python is based on Zero indexing i.e starts frrom zero index
 print(sample_str[3])
 
 # Slicing
@@ -22,8 +24,19 @@ print(sample)
 
 # Reverse a string
 sample=sample_str[::-1]
-print("reversing the string",sample)
+print("reversing the string:",sample)
 
 # Length of a string
 length_str=len(sample_str)
 print("length of string",length_str)
+
+# Method
+sample="heee"
+print(sample.capitalize()) # "Heee"
+
+# split(), join(), format(), count(), strip(), lstrip(), rstrip()
+
+sample="this is my life"
+split_str=sample.split() #output is a list
+print(split_str, type(split_str))
+
