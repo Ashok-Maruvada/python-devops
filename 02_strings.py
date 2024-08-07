@@ -54,3 +54,11 @@ print(sample_str)
 sample="this is my life"
 sample[0]='T'
 print(sample)
+"""
+o/p for above is error as string is immuatble , we can change once it is declared
+Traceback (most recent call last):
+  File "/home/cloudshell-user/python-devops/02_strings.py", line 55, in <module>
+    sample[0]='T'
+TypeError: 'str' object does not support item assignment
+
+"""
