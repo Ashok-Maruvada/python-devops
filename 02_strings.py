@@ -22,4 +22,8 @@ print(sample)
 
 # Reverse a string
 sample=sample_str[::-1]
-print(sample)
+print("reversing the string",sample)
+
+# Length of a string
+length_str=len(sample_str)
+print("length of string",length_str)
