@@ -19,3 +19,7 @@ print(sample)
 
 sample=sample_str[1::2]
 print(sample)
+
+# Reverse a string
+sample=sample_str[::-1]
+print(sample)
