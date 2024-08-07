@@ -19,3 +19,7 @@ print(b)
 # this is list
 c=['ashok', 'naveen', 'damu']
 print(c)
+
+# this is tuple
+d=('ram', 'vihaan', 'janaki')
+print(d)
