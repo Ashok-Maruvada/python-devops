@@ -40,3 +40,5 @@ sample="this is my life"
 split_str=sample.split() #output is a list
 print(split_str, type(split_str))
 
+join_str=split_str.join()
+print(join_str, type(join_str))
