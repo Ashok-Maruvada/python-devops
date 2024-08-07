@@ -49,3 +49,8 @@ print(count_i)
 sample='   this is my life    '
 sample_str=sample.strip()
 print(sample_str)
+
+# Strings are immutable
+sample="this is my life"
+sample[0]='T'
+print(sample)
