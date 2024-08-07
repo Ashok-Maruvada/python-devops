@@ -7,3 +7,8 @@ this denotes multi line comment
 a=23
 # Print the value that is stored inside the variable
 print(a)
+
+# STRINGS
+b='this is a string'
+
+print(b)
