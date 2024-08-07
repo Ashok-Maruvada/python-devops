@@ -3,7 +3,7 @@
 # 2. tuple()
 # Behavior: They're immutable
 
-sample_tuple=('jira','ansible','terraform','shell','jenkins')
+sample_tuple=('jira','ansible','k8','terraform','shell','jenkins')
 
 element=sample_tuple[1]
 print(element)
@@ -24,3 +24,7 @@ print(res_tuple)
 
 res_tuple1=sample_slice*2
 print(res_tuple1)
+
+# Methods
+res_index=sample_tuple.index(k8)
+print(res_index)
