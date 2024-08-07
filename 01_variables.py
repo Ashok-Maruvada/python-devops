@@ -23,3 +23,11 @@ print(c)
 # this is tuple
 d=('ram', 'vihaan', 'janaki')
 print(d)
+
+#this is dict
+e={'a':1, 'b':2}
+print(e, type(e))
+
+#this is set
+f={'a','b', 'c'}
+print(f, type(f))
