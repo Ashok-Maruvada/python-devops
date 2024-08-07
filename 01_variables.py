@@ -12,3 +12,10 @@ print(a)
 b='this is a string'
 
 print(b)
+
+b='she\'s is mine'
+print(b)
+
+# this is list
+c=['ashok', 'naveen', 'damu']
+print(c)
