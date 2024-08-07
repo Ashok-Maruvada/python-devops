@@ -13,3 +13,6 @@ print(sample)
 
 sample=sample_str[2:4]
 print(sample)
+
+sample=sample_str[::2]
+print(sample)
