@@ -7,3 +7,10 @@ sample_tuple=('jira','ansible','terraform','shell','jenkins')
 
 element=sample_tuple[1]
 print(element)
+
+element=sample_tuple[-1]
+print(element)
+
+#slicing
+sample_slice=sample_tuple[1:3]
+print(sample_slice)
