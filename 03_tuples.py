@@ -17,3 +17,7 @@ print(sample_slice)
 
 sliced_len=len(sample_slice)
 print("length of sample slice:",sliced_len)
+
+# Operations
+res_tuple=sample_slice+sample_slice
+print(res_tuple)
