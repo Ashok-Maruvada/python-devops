@@ -25,6 +25,7 @@ d=('ram', 'vihaan', 'janaki')
 print(d)
 
 #this is dict
+# type() function -> prints the datatype of the variable
 e={'a':1, 'b':2}
 print(e, type(e))
 
