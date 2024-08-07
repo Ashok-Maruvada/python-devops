@@ -28,3 +28,8 @@ print(res_tuple1)
 # Methods
 res_index=sample_tuple.index('k8')
 print(res_index)
+
+# Tuple unpacking
+ansible, terraform, jenkins, docker, k8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s")
+print(ansible, terraform, jenkins, docker, k8s)
+
