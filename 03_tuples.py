@@ -16,4 +16,4 @@ sample_slice=sample_tuple[1:3]
 print(sample_slice)
 
 sliced_len=len(sample_slice)
-print("length of sample slice:"sliced_len)
+print("length of sample slice:",sliced_len)
