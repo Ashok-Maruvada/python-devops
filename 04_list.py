@@ -16,5 +16,10 @@ print(sample_ele)
 sample_list[0]='k8'
 print(sample_list)
 
-sample_list[len(sample_list)+1]='ansible'
+sample_list[len(sample_list)-1]='ansible'
+print(sample_list)
+
+# Append element to the list
+sample_list=['ansible','k8','terraform','git','shell']
+sample_list.append('jenkins')
 print(sample_list)
