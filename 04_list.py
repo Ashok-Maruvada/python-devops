@@ -24,11 +24,15 @@ sample_list=['ansible','k8','terraform','git','shell']
 sample_list.append('jenkins')  # inplace operation
 print(sample_list)
 
-# Append list to list
+# Append list within list
 sample_list.append(sample_list)
-print(len(sample_list))
+print(len(sample_list)) #7
 
 # extend
 sample_list=[1,3,'sam',True]
 sample_list.extend(sample_list)
-print(sample_list)
+print(sample_list) #[1, 3, 'sam', True, 1, 3, 'sam', True]
+
+# membership operator: in, not in
+is_element=2 in sample_list
+print(is_element)
