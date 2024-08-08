@@ -7,3 +7,6 @@ print(sample_ele)
 
 sample_lt=sample_list[1:3]
 print(sample_lt)
+
+sample_ele=sample_list[len(sample_list)-1]
+print(sample_lt)
