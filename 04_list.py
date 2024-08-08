@@ -35,4 +35,4 @@ print(sample_list) #[1, 3, 'sam', True, 1, 3, 'sam', True]
 
 # membership operator: in, not in
 is_element=2 in sample_list
-print(is_element)
+print(is_element) #False
