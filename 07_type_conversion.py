@@ -13,5 +13,5 @@ print(user_input, type(user_input))
 
 user_input=input("enter anything")
 print(user_input, type(user_input))
-add_10=(user_input)+10
+add_10=int(user_input)+10
 print(add_10)
