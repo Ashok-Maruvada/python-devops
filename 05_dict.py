@@ -25,6 +25,7 @@ Traceback (most recent call last):
 TypeError: unhashable type: 'list'
 """
 
+sample_dict = {"1": 1, 2: 4, 3: 9,3: 14}
 dict_keys=sample_dict.keys()
 dict_values=sample_dict.values()
 dict_items=sample_dict.items()
