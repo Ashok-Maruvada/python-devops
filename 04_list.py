@@ -21,5 +21,14 @@ print(sample_list)
 
 # Append element to the list
 sample_list=['ansible','k8','terraform','git','shell']
-sample_list.append('jenkins')
+sample_list.append('jenkins')  # inplace operation
+print(sample_list)
+
+# Append list to list
+sample_list.append(sample_list)
+print(len(sample_list))
+
+# extend
+sample_list=[1,3,'sam',True]
+sample_list.extend(sample_list)
 print(sample_list)
