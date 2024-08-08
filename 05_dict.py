@@ -34,4 +34,8 @@ print(dict_keys,dict_values,dict_items)
 # What happens if you access a key that is not present inside a dict
 sample_dict = {1: 1, 2: 4, 3: 9}
 #print(sample_dict[4]) # error
-print(sample_dict.get(4))
+print(sample_dict.get(4)) # to avoid script termination, we can use get keyword - o/p is None
+
+sample_dict = {1: 1, 2: 4, 3: 9}
+sample_dict[4]=16
+print(sample_dict)
