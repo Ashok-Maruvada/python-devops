@@ -18,3 +18,8 @@ TypeError: 'set' object does not support item assignment
 """
 sample_set.add(4)
 print(sample_set)
+
+print(sample_set[2])
+
+
+# intersection(), union()
