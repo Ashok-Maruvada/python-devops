@@ -20,6 +20,10 @@ sample_set.add(4)
 print(sample_set)
 
 print(sample_set[2])
-
-
+"""
+Traceback (most recent call last):
+  File "/home/cloudshell-user/python-devops/06_sets.py", line 22, in <module>
+    print(sample_set[2])
+TypeError: 'set' object is not subscriptable
+"""
 # intersection(), union()
