@@ -16,5 +16,5 @@ print(user_input, type(user_input))
 add_10=int(user_input)+10 
 print(add_10, type(add_10))
 
-split_input="10 100 20 30 40 50".split(" ")
-print(split_input)
+split_input="10 100 20 30 40 50".split()
+print(split_input) # ['10', '100', '20', '30', '40', '50']
