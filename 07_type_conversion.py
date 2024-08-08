@@ -11,7 +11,7 @@ user_input=input()
 # whatever u enter whether number, string, it takes that as string
 print(user_input, type(user_input))
 
-user_input=input("enter anything")
+user_input=input("enter anything: ")
 print(user_input, type(user_input))
 add_10=int(user_input)+10
-print(add_10)
+print(add_10, type(add_10))
