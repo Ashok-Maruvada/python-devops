@@ -9,4 +9,9 @@ sample_lt=sample_list[1:3]
 print(sample_lt)
 
 sample_ele=sample_list[len(sample_list)-1]
-print(sample_lt)
+print(sample_ele)
+
+# List is a mutable data type
+# Once defined, it can be altered
+sample_list[0]='k8'
+print(sample_list)
