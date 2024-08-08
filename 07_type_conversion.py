@@ -8,4 +8,4 @@ print(sample_tuple) # ('t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 's', 't
 
 # Accept input from a user
 user_input=input()
-print(user_input)
+print(user_input, type(user_input))
