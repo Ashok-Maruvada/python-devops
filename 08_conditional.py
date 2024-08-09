@@ -28,7 +28,7 @@ user_input=int(input("enter a number:"))
 
 # Exception handling: try - except
 try:
-    user_input=int(input("enter a number:"))
+    # user_input=int(input("enter a number:"))
     if user_input==10:
         print("gievn number is equal to 10")
     elif user_input>10:
