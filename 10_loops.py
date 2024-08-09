@@ -1,4 +1,4 @@
 sample_list=['k8','ansible','shell','jenkins']
 
-for i in sample_list:
-    print(i, len(i))
+for i,ind in sample_list[ind]:
+    print(i, ind)
