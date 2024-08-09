@@ -19,14 +19,20 @@ sample_list=['k8','ansible','shell','jenkins']
 #         continue
 #     print(idx,sample_list[idx])
 
-for idx in range(0, len(sample_list)):
-    if sample_list[idx]=='shell':
-        break
-    print(idx,sample_list[idx])
+# for idx in range(0, len(sample_list)):
+#     if sample_list[idx]=='shell':
+#         break
+#     print(idx,sample_list[idx])
 
 # for idx in range(0, len(sample_list)):
 #     if sample_list[idx]=='shell':
 #         exit(1)
 #     print(idx,sample_list[idx])
-print(sample_list)
+
+for idx in range(0, len(sample_list)):
+    if sample_list[idx]=='shell':
+        pass
+    print(idx,sample_list[idx])
+
+# print(sample_list)
                     
