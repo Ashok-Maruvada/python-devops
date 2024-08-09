@@ -36,13 +36,16 @@ sample_list=['k8','ansible','shell','jenkins']
 
 # print(sample_list)
 
-sample_list=['k8','ansible','shell','jenkins','Docker']
-idx=0
+# sample_list=['k8','ansible','shell','jenkins','Docker']
+# idx=0
 
-while idx<len(sample_list):
-    if sample_list[idx]=='jenkins':
-        break
-    print(idx, sample_list[idx])
-    idx+=1
+# while idx<len(sample_list):
+#     if sample_list[idx]=='jenkins':
+#         break
+#     print(idx, sample_list[idx])
+#     idx+=1
 
-                    
+sample_dict = {1: 1, 2: 4, 3: 9}    
+
+for i,j in sample_dict:
+    print(i, j)
