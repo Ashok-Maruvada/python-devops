@@ -31,10 +31,16 @@
 # addition=add(1,2,3,4)
 # print(addition)
 
-def add(num1,num2, *args):
-    res=num1+num2+sum(args)
-    return res
+# def add(num1,num2, *args):
+#     res=num1+num2+sum(args)
+#     return res
 
-# call the function
-addition=add(1,2,3,4,5)
-print(addition)
+# # call the function
+# addition=add(1,2,3,4,5)
+# print(addition)
+
+def add(*args, **kwargs):
+    print(args, kwargs)
+
+res = add(1, 2, 4)
+print(res)
