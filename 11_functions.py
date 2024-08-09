@@ -17,5 +17,6 @@ def add(num1,num2,num3=1):
     return res
 
 # call the function
-addition=add(2,3)
+#addition=add(2,3)
+addition=add(num2=5,num1=4)
 print(addition)
