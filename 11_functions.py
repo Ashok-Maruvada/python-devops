@@ -59,6 +59,7 @@ None
 """
 
 # Lambda: inline function
+# it reduces number of lines to define and call the function
 add_numbers = lambda num1,num2: num1+num2
 res= add_numbers(1,2)
 print(res)
