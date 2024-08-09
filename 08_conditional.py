@@ -35,5 +35,5 @@ try:
         print("given number is greater than 10")
     else:
         print("given number is less than 10")
-except SyntaxError:
+except ValueError:
     print("Please enter a number ")
