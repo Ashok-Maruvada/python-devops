@@ -42,5 +42,16 @@
 def add(*args, **kwargs):
     print(args, kwargs)
 
-res = add(1, 2, 4)
+#res = add(1, 2, 4)
+#print(res) # o/p is None as we are not return anything
+"""
+[cloudshell-user@ip-10-134-37-110 python-devops]$ python 11_functions.py 
+(1, 2, 4) {}
+None
+"""
+
+res=add(1,2,3,num1=5,num2=7)
 print(res)
+"""
+
+"""
