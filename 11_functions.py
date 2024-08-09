@@ -4,7 +4,7 @@
 # #calling the function
 # sample_func()
 
-def add():
+def add(num1, num2):
     res=num1+num2
     return res
 
