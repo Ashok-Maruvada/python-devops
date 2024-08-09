@@ -34,5 +34,5 @@ for idx in range(0, len(sample_list)):
         pass
     print(idx,sample_list[idx])
 
-# print(sample_list)
+print(sample_list)
                     
