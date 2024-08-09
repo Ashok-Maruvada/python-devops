@@ -10,4 +10,7 @@ for i,idx in enumerate(sample_list):
 # Range based for loop
 sample_range= range(0, len(sample_list))
 print(sample_list, type(sample_range))
+
+for i in sample_range:
+    print(i, sample_range)
                     
