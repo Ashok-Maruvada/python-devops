@@ -6,3 +6,8 @@ for i in sample_list:
 # Print the element and its corresponding index
 for i,idx in enumerate(sample_list):
     print(i,idx)
+
+# Range based for loop
+sample_range= range(0, len(sample_list))
+print(sample_list, type(sample_range))
+                    
