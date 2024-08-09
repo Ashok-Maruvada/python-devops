@@ -11,6 +11,11 @@ sample_list=['k8','ansible','shell','jenkins']
 sample_range= range(0, len(sample_list))
 #print(sample_list, type(sample_range))
 
+# for idx in range(0, len(sample_list)):
+#     print(idx, sample_list[idx])
+
 for idx in range(0, len(sample_list)):
-    print(idx, sample_list[idx])
+    if sample_list[idx]=='shell':
+        continue
+    print(idx,sample_list[idx])
                     
