@@ -47,5 +47,5 @@ sample_list=['k8','ansible','shell','jenkins']
 
 sample_dict = {1: 1, 2: 4, 3: 9}    
 
-for i,j in sample_dict:
+for i,j in sample_dict.items:
     print(i, j)
