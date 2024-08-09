@@ -17,3 +17,11 @@ else:
         print("given number is less than 10")
     else:
         print("given number is equal to 10")
+
+# Method 2
+if user_input==10:
+    print("gievn number is equal to 10")
+elif user_input>10:
+    print("given number is greater than 10")
+else:
+    print("given number is less than 10")
